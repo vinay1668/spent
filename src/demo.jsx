@@ -146,7 +146,7 @@ function Demo(){
 
   <h2> What's your Birthday ?</h2>
 
-<input type="date" className="form-control calender" id="exampleDropdownFormEmail1" placeholder=""  onChange={handleChange} />
+<input type="date" className="form-control calender" id="exampleDropdownFormEmail1" placeholder="Choose your Birthday"  onChange={handleChange} />
 
                     {  pop ?
                       <h4 className="alert">Please choose your Birthday!</h4>
