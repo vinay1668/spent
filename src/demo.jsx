@@ -136,7 +136,7 @@ function Demo(){
 
 
   var curr = new Date();
-  curr.setDate(curr.getDate() + 1);
+  curr.setDate(curr.getDate() + 5);
   var date = curr.toISOString().substr(0,10);
 
   return(
@@ -148,7 +148,7 @@ function Demo(){
 
   <h2> What's your Birthday ?</h2>
 
-<input type="date" className="form-control calender" defaultValue={date}  id=""  placeholder="Choose your Birthday"  onChange={handleChange} />
+<input type="date" className="form-control calender" defaultValue={date} id=""  placeholder="Choose your Birthday"  onChange={handleChange} />
 
                     {  pop ?
                       <h4 className="alert">Please choose your Birthday!</h4>
