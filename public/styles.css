@@ -230,3 +230,13 @@ font-weight: bold;
   position: relative;
   top:250px;
 }
+footer{
+  position: fixed;
+  left: 800px;
+  bottom: 0px;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #84a9ac;
+  font-size: 1.1em;
+
+}
