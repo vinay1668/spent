@@ -12,7 +12,14 @@ function App()
     <div>
          < Demo />
 
+
+
+         <footer>
+           <p className="end">copyright © 2020 vinay</p>
+         </footer>
     </div>
+
+
   );
 }
 

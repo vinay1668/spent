@@ -230,7 +230,7 @@ font-weight: bold;
   position: relative;
   top:250px;
 }
-footer{
+.end{
   position: fixed;
   left: 800px;
   bottom: 0px;
